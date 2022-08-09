@@ -1,0 +1,46 @@
+:root {
+  --color-grey: #303030;
+  --text-color: #555555;
+  --link-color: #ff6c00;
+}
+
+.barbershop-header,
+.hero {
+  background-color: #2b2b2d;
+}
+
+.barbershop-header,
+.barbershop-header a,
+.hero {
+  color: #fff;
+}
+
+.header-navigation a:hover,
+.barbershop-header a:hover {
+  color: var(--link-color);
+}
+
+.header-navigation a:focus {
+  outline: solid 1px var(--link-color);
+  color: var(--link-color);
+}
+
+.header-navigation .active {
+  color: var(--link-color);
+}
+
+.hero {
+  color: rgba(157, 164, 189, 60%);
+}
+
+.title-light {
+  color: #fff;
+}
+
+.title {
+  color: var(--color-grey);
+}
+
+.about {
+  color: var(--text-color);
+}
